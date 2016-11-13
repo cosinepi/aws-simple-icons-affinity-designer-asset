@@ -3,7 +3,8 @@ An asset file for Affinity Designer that contains Amazon AWS simple icons from h
 
 ## Download
 For the impatient:
-1. Download [the asset](https://github.com/cosinepi/aws-simple-icons-affinity-designer-asset/blob/master/Asset/AWS_Simple_Icons_EPS-SVG_v16.2.22.afassets).
+
+1. Download [the asset file](https://github.com/cosinepi/aws-simple-icons-affinity-designer-asset/blob/master/Asset/AWS_Simple_Icons_EPS-SVG_v16.2.22.afassets).
 2. Open Affinity Designer, View -> Studio -> Assets (if not checked).
 3. Use Import Assets... to import your downloaded file.
 
