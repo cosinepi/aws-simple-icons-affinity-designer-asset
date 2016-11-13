@@ -2,8 +2,25 @@
 An asset file for Affinity Designer that contains Amazon AWS simple icons from https://aws.amazon.com/architecture/icons/
 
 ## Download
+For the impatient:
+1. Download [the asset](https://github.com/cosinepi/aws-simple-icons-affinity-designer-asset/blob/master/Asset/AWS_Simple_Icons_EPS-SVG_v16.2.22.afassets).
+2. Open Affinity Designer, View -> Studio -> Assets (if not checked).
+3. Use Import Assets... to import your downloaded file.
 
 ## Production Notes
+
+Aside from a little scripting, this asset file was essentially created by hand.
+
+I wrote a simple Python script to transform the asset file names to exclude repetitive parts. For instance, a file named `On-Demand-Workforce_AmazonMechanicalTurk_assignmenttask.svg` inside the `On-Demand Workforce` folder is simply renamed to `AmazonMechanicalTurk_assignmenttask.svg`, and added to the `On-Demand Workforce` subcategory of the asset. The script also deletes the `.png` and `.eps` versions of the same graphics. The `.svg` versions are very well supported by Affinity Designer.
+
+Then comes the laborious work. I manually opened each file in Affinity Designer, grouped the graphics, put in the name to the group, and added the graphics to the subcategory of the asset, corresponding to the folder where the original `.svg` is in.  The renaming is necessary so that next time you drag the graphics out of the asset into your drawing, it is properly named.
+
+I didn't manage to automate the process because Affinity Designer currently does not support automation very well, though this is something on their road map. If you have better idea to automate the whole process, 
+
+## Tips
+
+1. In each subcategory, the graphics are strictly sorted by the original filename of the graphics, including the `.svg` extension. That's why you'll see, for instance, that `AmazonDynamoDB_table` comes before `AmazonDynamoDB`, because `AmazonDynamoDB_table.svg` comes before `AmazonDynamoDB.svg`. 
+2. In case you cannot find a graphics you need, try the search box inside the asset panel. That works very well.
 
 ## List of Assets
 
@@ -258,3 +275,9 @@ An asset file for Affinity Designer that contains Amazon AWS simple icons from h
 ## License
 
 This is an asset provided by good will. Find more on license info on https://aws.amazon.com/architecture/icons/
+
+## Feedback
+
+I'd be happy to know if it is possible to fully automate the process of creating the asset for Affinity Designer. If you have a good idea, please let me know.
+
+I created this asset file when I was watching the 2016 US president election live stream. There is no promise of no mistakes made. Please let me know if you find any.
