@@ -8,6 +8,9 @@ For the impatient:
 2. Open Affinity Designer, View -> Studio -> Assets (if not checked).
 3. Use Import Assets... to import your downloaded file.
 
+## Updates
+[2020-12-28] Thanks to @grahamjenson for providing an updated version of the assets! See the `Asset` folder of the repo.
+
 ## Production Notes
 
 Aside from a little scripting, this asset file was essentially created by hand.
